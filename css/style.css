@@ -176,6 +176,9 @@ footer {
     body {
         font-size: 9px;
     }
+    #buttonArrow {
+        display: none;
+    }
 }
 
 @media(max-width: 426px) {
@@ -185,5 +188,10 @@ footer {
     .projectImg img {
         max-width: 300px;
     }
+}
 
+@media(max-width: 375px) {
+    h2 {
+        font-size: 5.2em;
+    }
 }
